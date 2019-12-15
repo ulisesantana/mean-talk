@@ -30,7 +30,7 @@ Hablamos del MEAN stack explicando cada uno de sus componentes y algunos de sus 
 - [Loopback 4](): framework hecho por IBM que usa express por debajo.
 - [NestJS](): framework que usa conceptos de Angular en el backend y usa express por debajo.
     
-### Alternativas
+### Alternativas a Express
 
 - [Fastify](https://www.fastify.io/docs/latest/Getting-Started)
 - [FeathersJS](https://docs.feathersjs.com/guides/) 
@@ -43,7 +43,7 @@ Hablamos del MEAN stack explicando cada uno de sus componentes y algunos de sus 
 - [awesome Angular](https://github.com/PatrickJS/awesome-angular#scala-seed-projects)
 - [Codesandbox](https://codesandbox.io/)
 
-### Alternativas
+### Alternativas a Angular
 
 - [React](https://es.reactjs.org/tutorial/tutorial.html)
 - [Vue](https://vuejs.org/v2/guide/)
