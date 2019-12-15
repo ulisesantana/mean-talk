@@ -1,0 +1,211 @@
+import { Head, Notes } from 'mdx-deck';
+import {Box, Flex, Image} from 'rebass'
+import { yellow} from 'mdx-deck/themes';
+import { Row, Left} from './Layout.js'; 
+import {List } from './List.js';
+
+<!-- Express for noobs: http://www.kauress.me/category/javascript-%e2%9d%a4/ -->
+
+export const theme = yellow;
+
+![](/images/mean.png)
+## MEAN Stack
+
+---
+<br/>
+
+![Ulises Santana](/images/ulises.png)
+# Ulises Santana
+### Full Stack Developer
+@ulisesantana
+
+---
+![](/images/mean.png)
+
+<Notes>
+
+  - 2013 se acuña el término
+  
+  - 
+
+</Notes>
+
+---
+
+![](/images/meanjs-web.png)
+
+
+<Notes>
+
+  - es de 2014 y tuvo buena aceptación, pero se quedó anclado a ese momento.
+
+</Notes>
+
+---
+<Left>
+
+  <Image sx={{margin: "0 1rem"}} src="/images/node.png"/>
+
+  - Creado en 2009 por Ryan Dahl
+  - Brilla en aplicaciones DIRT
+  - Escrito en C++ usando el V8 de Chrome
+  - JavaScript corriendo en el sistema operativo. 
+  - Es clave para el desarrollo web moderno
+  
+
+</Left>
+
+<Notes>
+
+  - DIRT: data-intensive realtime applications.
+
+  - Todas las herramientas de desarrollo web moderno usan NodeJS y npm para construir las aplicaciones que acaban en producción. Aparte de las herramientas que existen para asistir el desarrollo.
+
+</Notes>
+
+---
+<Left>
+
+  <Image sx={{margin: "0 1rem"}} src="/images/mongo.png"/>
+
+  - Base de datos NoSQL
+  - Orientada a documentos
+  - Basada en BSON
+  - Consultas en JavaScript
+  
+
+</Left>
+
+<Notes>
+
+  - BSON: Es una representación binaria de estructuras de datos y mapas. El nombre BSON está basado en el término JSON y significa Binary JSON (JSON Binario).
+
+</Notes>
+
+---
+<Left>
+
+  
+  <Image sx={{margin: "0 1rem"}} src="/images/mlab.png"/>
+  
+  <Image sx={{margin: "0 1rem", maxWidth: "500px !important", maxHeight: "100% !important"}} src="/images/mongo-query.png"/>
+
+</Left>
+
+<Notes>
+
+  - Sacar Robomongo y mostrar por encima además de hacer una query básica.
+
+</Notes>
+
+---
+<Row>
+  
+  <Image src="/images/couchdb.png"/>
+  <Image src="/images/rethinkdb.png"/>
+  <Image src="/images/redis.png"/>
+
+</Row>
+
+<Notes>
+
+  - CouchDB: Base de datos documental diseñada para funcionar con el cliente offline.
+
+  - RethinkDB: Parecido a Mongo, pero con enfasis en el realtime.
+
+  - Redis: in-memory database con posibilidad de persistencia. Versátil y rápida, pero no es una base de datos como tal.
+
+</Notes>
+
+---
+<Left>
+
+  <Image sx={{margin: "0 1rem"}} src="/images/express.png"/>
+
+  - Fácil gestión de peticiones HTTP para crear API REST
+  - Gestión de motores de plantillas para renderizado estático
+  - Amplio sistema de middlewares
+  - Muy extendido
+  
+
+</Left>
+
+<Notes>
+
+  - Posibilidade añadir middlewares en cualquier punto de la petición
+  
+  - Se puede decir que Express es la framework web por excelencia para node, pero hay muchas otras opciones que funcionan de manera parecida.
+
+</Notes>
+
+
+---
+# API REST
+
+|  GET |  POST |     PUT    | DELETE |
+|:----:|:-----:|:----------:|:------:|
+| Leer | Crear | Actualizar | Eliminar |
+
+
+<Notes>
+
+  - MEAN no es sólo un stack tecnológico, sino también un conjunto de arquitecturas. Entre ellas RESt API y SPA.
+
+  - Comentar que las decisiones de arquitectura deben ser enfocadas a solucionar un problema. No te pongas con microservicios a lo bestia si vas a hacer una app chorra que sólo vas a usar tú.
+  
+</Notes>
+
+---
+<List>
+
+  - GET `/tasks/:userId`: Obtener todas las tareas de un usuario.
+  - POST `/tasks`: Crear una nueva tarea.
+  - PUT `/tasks/:userId/:taskId`: Actualizar la tarea de un usuario.
+
+</List>
+
+
+<Notes>
+
+  - Abrir navegador y mostrar consultas a una API REST.
+
+</Notes>
+
+---
+<Row>
+  <Image src="/images/fastify.png"/>
+  <Image src="/images/restify.png"/>
+  <Image src="/images/koa.png"/>
+  <Image src="/images/feathers.svg"/>
+  <Image src="/images/hapi.png"/>
+</Row>
+
+---
+<Left>
+
+  <Image sx={{margin: "0 1rem"}} src="/images/angular.png"/>
+
+  - Creado por Google en 2010
+  - AngularJS y Angular
+  - Two-way data binding, dependency injection, routing
+  - MVC
+  
+
+</Left>
+
+<Notes>
+
+  - Veniamos de un mundo en el que en JS todo era global y Angular consigue componetizar el frontend.
+
+  - Primer framework SPA
+
+</Notes>
+
+---
+<Row>
+  <Image src="/images/js.png"/>
+  <Image src="/images/react.png"/>
+  <Image src="/images/vue.png"/>
+  <Image src="/images/svelte.jpeg"/>
+  <Image src="/images/polymer.png"/>
+</Row>
